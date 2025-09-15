@@ -25,7 +25,7 @@ return (
         <input
             type="checkbox"
             className="cursor-pointer"
-            checked={todo.completed} 
+            checked={todo.completed}
             onChange={toggleCompleted}
         />
         <input
